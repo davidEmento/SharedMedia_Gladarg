@@ -1,5 +1,8 @@
-## Interface: ## Interface: 11503, 40400, 110000, 110002, 120000
-## Title: SharedMedia_MyMedia 
-## Dependencies: SharedMedia 
+## Interface: 110002, 120000
+## Title: SharedMedia_Gladarg
+## Dependencies: SharedMedia
+## Author: Gladarg
+## Version: 1.0.0
+## X-Curse-Project-ID: 1429271
 
-GladargMedia.lua 
+GladargMedia.lua
