@@ -1,0 +1,24 @@
+name: Release AddOn
+
+# This triggers the script only when you push a tag (e.g., v1.0.1)
+on:
+  push:
+    tags:
+      - '**'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Download your code into the virtual machine
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Step 2: Run the packager and upload to CurseForge
+      - name: Build and Push
+        uses: BigWigsMods/packager@v2
+        env:
+          # This must match the name of the secret you created in GitHub
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}

@@ -1,0 +1,9 @@
+## Interface: 110002, 120000
+## Title: SharedMedia_Gladarg
+## Dependencies: SharedMedia
+## Author: Gladarg
+## Version: 1.0.15
+## X-Curse-Project-ID: 1429271
+## IconTexture: Interface\AddOns\SharedMedia_Gladarg\media\logo.tga
+
+GladargMedia.lua
