@@ -11,6 +11,6 @@ Paste this into the VS Code terminal (replace `v1.x.x` with your new version):
 ```bash
 git add .
 git commit -m "Updated strings"
-git tag v1.0.15
+git tag v1.0.0
 git push origin main
-git push origin v1.0.15
+git push origin v1.0.0
