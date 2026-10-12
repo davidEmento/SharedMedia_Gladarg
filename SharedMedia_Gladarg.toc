@@ -1,8 +1,8 @@
-## Interface: 110002, 120000
+## Interface: 120000, 120001, 120005, 120007, 120100, 16001
 ## Title: SharedMedia_Gladarg
 ## Dependencies: SharedMedia
 ## Author: Gladarg
-## Version: 1.0.2
+## Version: 1.0.3
 ## X-Curse-Project-ID: 1429271
 ## IconTexture: Interface\AddOns\SharedMedia_Gladarg\media\logo.tga
 
